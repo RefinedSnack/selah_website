@@ -153,7 +153,7 @@ h3 {
 
 .top-bar {
   height: 220px;
-  background-color: #848484;
+  background-color: #dc7fd9e6;
   color: #fff;
 }
 
@@ -328,11 +328,11 @@ h3 {
 .separator {
   width: 240px;
   height: 2px;
-  background-color: #999;
+  background-color: #dc7fd9e6;
 }
 
 .greyed {
-  background-color: #ddd;
+  background-color: #d5fef4;
   width: 100%;
   max-width: 580px;
   text-align: center;
