@@ -33,3 +33,26 @@ git pull
    ```sh
    git push origin main
    ```
+
+# Update Web-Server
+## Connect to server using ssh
+1. In a terminal run the following command:
+   ```sh
+   ssh wwacaser@159.203.78.216
+   ```
+2. You should see something like this:
+   `Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-130-generic x86_64)`
+3. Change into the website folder
+   ```sh
+   cd ~/selah_website
+   ```
+4. pull changes
+   ```sh
+   git pull
+   ```
+5. copy changes to var repo
+   ```sh
+   sudo cp * /var/www/html/selahdegering.com/
+   ```
+6. You will be prompted to enter a password, it will not show you the password, and when you type a character nothing will appear, hit enter when done entering the password. The password is stored in our password manager under selahdegering.som. Copy and paste may not work so you may need to manually enter it.
+
