@@ -54,5 +54,5 @@ git pull
    ```sh
    sudo cp * /var/www/html/selahdegering.com/
    ```
-6. You will be prompted to enter a password, it will not show you the password, and when you type a character nothing will appear, hit enter when done entering the password. The password is stored in our password manager under selahdegering.som. Copy and paste may not work so you may need to manually enter it.
+6. You will be prompted to enter a password, it will not show you the password, and when you type a character nothing will appear, hit enter when done entering the password. The password is stored in our password manager under selahdegering.com. Copy and paste may not work so you may need to manually enter it.
 
